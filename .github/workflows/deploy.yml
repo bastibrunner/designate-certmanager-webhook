@@ -2,8 +2,8 @@ name: Deploy Worklow
 
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
