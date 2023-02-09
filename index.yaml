@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  designate-certmanager-webhook:
+  - apiVersion: v1
+    appVersion: 0.2.18
+    created: "2023-02-09T12:20:35.233782084Z"
+    description: ACME webhook Implementation for OpenStack Designate
+    digest: 7f84ff521dae52ad74c95a1392b69f6f6b584d6511b491bc5d2b2cb00f40b2d3
+    name: designate-certmanager-webhook
+    urls:
+    - https://github.com/bastibrunner/designate-certmanager-webhook/releases/download/designate-certmanager-webhook-0.5.0/designate-certmanager-webhook-0.5.0.tgz
+    version: 0.5.0
+generated: "2023-02-09T12:20:35.233796984Z"
